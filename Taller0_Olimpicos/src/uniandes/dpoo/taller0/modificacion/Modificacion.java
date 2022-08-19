@@ -20,11 +20,12 @@ public class Modificacion {
 	 * @throws IOException 
 	 * @throws FileNotFoundException 
 	 */
-	public static void main() throws FileNotFoundException, IOException {
+	public static void main(String[] args) throws FileNotFoundException, IOException {
 		
 		System.out.println("Hola mundo");
 		CalculadoraEstadisticas calc = LoaderOlimpicos.cargarArchivo("./data/atletas.csv");
 		System.out.println(calc.paisConMasMedallistas());
+		
 		 
 		
 		
